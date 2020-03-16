@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Col, Row } from "reactstrap";
+import Image from "react-bootstrap/Image";
 import about from "../Shared/about.json";
 import marco_venturi from "../Images/marco_venturi.jpg";
 
@@ -12,7 +13,7 @@ class About extends Component {
           <p>{about.body}</p>
         </Col>
         <Col md="6">
-          <img src={marco_venturi} alt="Marco Venturi" width="500" fluid />
+          <Image src={marco_venturi} alt="Marco Venturi" fluid />
         </Col>
       </Row>
     );
