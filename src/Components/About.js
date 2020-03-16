@@ -12,7 +12,7 @@ class About extends Component {
           <p>{about.body}</p>
         </Col>
         <Col md="6">
-          <img src={marco_venturi} alt="Marco Venturi" width="500" />
+          <img src={marco_venturi} alt="Marco Venturi" width="500" fluid />
         </Col>
       </Row>
     );
