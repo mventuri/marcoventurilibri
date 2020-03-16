@@ -94,6 +94,7 @@ class BookDetails extends React.Component {
           isOpen={this.state.modal}
           toggle={this.toggle}
           className={this.props.className}
+          size="md"
         >
           <ModalHeader toggle={this.toggle}>{this.props.title}</ModalHeader>
           <ModalBody>{this.props.text}</ModalBody>
